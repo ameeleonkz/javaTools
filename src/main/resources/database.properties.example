@@ -1,0 +1,4 @@
+db.url=jdbc:postgresql://localhost:5432/otp_service
+db.user=a1111
+db.password=
+db.driver=org.postgresql.Driver

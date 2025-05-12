@@ -1,0 +1,22 @@
+# Email (SMTP) Configuration
+email.host=smtp.gmail.com
+email.port=587
+email.username=your-email@gmail.com
+email.password=your-app-password
+
+# SMS (SMPP) Configuration
+sms.source.address=OTPService
+# SMPP session configuration will be handled programmatically
+
+# Telegram Configuration
+telegram.bot.token=your-bot-token
+telegram.chat.id=your-chat-id
+
+# File Notification Configuration
+file.notification.path=otp_codes.log
+
+# Console Output Configuration
+console.otp.output.enabled=true
+
+# Notification Timeout Configuration (in milliseconds)
+notification.timeout=4000 
